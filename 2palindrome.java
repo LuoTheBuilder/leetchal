@@ -7,4 +7,10 @@ if (x<0 || (x%10 == 0 && x !=0)){
         while (x>i){
             i=i*10+x%10;
             x/=10;
-            System.ou
+            System.out.println(i+ " "+x);
+        }
+        if (x==i || x==i/10){
+            return true;
+        }else return false;
+    }
+}
